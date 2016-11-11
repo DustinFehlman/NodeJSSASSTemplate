@@ -1,0 +1,21 @@
+{
+  "name": "node_template",
+  "version": "1.0.0",
+  "description": "Starting template for a brand new node.js app that uses sass.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently --kill-others \"node ./assets/js/app.js\" \"gulp --silent\""
+  },
+  "author": "Dustin Fehlman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "concurrently": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
